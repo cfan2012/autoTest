@@ -1,12 +1,12 @@
 # UI automated test
 
-This part is do for UI automated test. I use Selenium in Python to do automated test.
+This part is do for UI automated test. I use Selenium in Python3.6.5 to do automated test.
 
 ## Problem when write automated test code.
 
   1. Run test case which is ChromeDriver, but failed, it show a message "selenium.common.exceptions.WebDriverException: Message: *'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home"*
-     ***solution***
      
+     ***solution***  
      (1) We can download chromedriver, put it in the project, and use following code to run chromedriver
      ```
      from selenium import webdriver
